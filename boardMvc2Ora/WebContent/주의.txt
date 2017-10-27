@@ -1,0 +1,8 @@
+1. 오라클 서버를 사용한다/ 
+   dbcp 서버풀(지금까지는 application pool)이다.
+   즉, 오라클 드라이버가 tomcat서버에 있어야한다는 뜻이다. 
+2. EL 과 Jstl을 사용해야 한다.
+  WEB-INF/lib/xxxx.jar 라이브러리를 추가한다.
+
+  3. dbcp server pool 셋팅을 한다 .
+  4. web.xml 어플리케이션 
